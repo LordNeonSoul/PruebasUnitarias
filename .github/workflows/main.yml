@@ -20,6 +20,9 @@ jobs:
     - name: Install npm
       run: npm install 
     
+    - name: Install Istanbul
+      run: npm install --save-dev istanbul
+ 
     - name: Install jest
       run: npm install --save-dev jest
    
