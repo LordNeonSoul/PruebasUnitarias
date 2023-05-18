@@ -4,12 +4,14 @@
   "description": "",
   "main": "sum.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "sonar": "sonar-scanner"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "jest": "^29.5.0"
+    "jest": "^29.5.0",
+    "sonarqube-scanner": "^2.7.0"
   }
 }
