@@ -22,7 +22,10 @@ jobs:
     
     - name: Install Istanbul
       run: npm install --save-dev istanbul
- 
+
+    - name: Install Nyc
+      run: npm install --save-dev nyc
+          
     - name: Install jest
       run: npm install --save-dev jest
    
